@@ -1,0 +1,12 @@
+serial_port = 'COM3'
+baud = 460800
+allow_all = false
+allowed_numbers = ['+79991234567']
+callback_after_seconds = 20
+
+whisper_cli = 'C:\tools\whisper.cpp\build\bin\Release\whisper-cli.exe'
+whisper_model = 'C:\tools\whisper.cpp\models\ggml-base.bin'
+piper = 'C:\tools\piper\piper.exe'
+piper_model = 'C:\tools\piper\ru_RU-voice.onnx'
+codex = 'codex'
+workdir = 'C:\CodexPhone'
